@@ -6,8 +6,8 @@
 using namespace std;
 
 void printVector(vector<int>& v) {
-    for(vector<int>::iterator it = v.begin();it != v.end();it++) {
-        cout << *it << " ";
+    for(int & it : v) {
+        cout << it << " ";
     }
     cout << endl;
 }

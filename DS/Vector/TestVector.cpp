@@ -136,10 +136,17 @@ void test_04() {
     cout << endl;
     cout << "----------------------------" << endl;
 }
+void test_05() {
+    struct point {
+        int x,y;
+    };
+    vector<point> a;
+}
 signed main()
 {
     // test_01();
     // test_02();
     // test_03();
-    test_04();
+    // test_04();
+    test_05();
 }
